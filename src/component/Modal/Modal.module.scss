@@ -1,0 +1,30 @@
+.Modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #afd394;
+  z-index: 1200;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.ModalBack {
+  // max-width: calc(100vw - 48px);
+  // max-height: calc(100vh - 24px);
+  display: flex;
+  flex-direction: column;
+}
+.imageModule {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 3px 45px 36px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 3px 45px 36px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 3px 45px 36px rgba(34, 60, 80, 0.2);
+}

@@ -1,0 +1,47 @@
+.Ullist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  background-color: rgb(199, 229, 236);
+  padding: 20px;
+}
+
+.List {
+  flex-basis: calc(100% / 3 - 30px);
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.InputValue {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  width: 600px;
+  margin: auto;
+  border-radius: 40px;
+  margin-top: 50px;
+}
+.ErrorName {
+  color: #e2390f;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.imageGalerry {
+  width: 310px;
+  height: 310px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  }
+}
